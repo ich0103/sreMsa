@@ -3,7 +3,9 @@
 * 답은 Solution.md 파일에 있습니다.
 ## 1. Deployment를 출력하시오.
 ```
-kubectl ~
+root@vm01:/home/ubuntu# kubectl get deployments
+NAME    READY   UP-TO-DATE   AVAILABLE   AGE
+nginx   10/10   10           10          151m
 ```
 ## 2. httpd 이미지를 사용하는 h1 Deploy를 생성하시오 (80번 포트 Open)
 ```
